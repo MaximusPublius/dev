@@ -159,3 +159,4 @@ export const isCurrentUserAdmin = query({
     return adminStatus?.wasAdmin ?? false;
   },
 });
+// Force update trigger
