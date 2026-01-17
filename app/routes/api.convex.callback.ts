@@ -63,7 +63,7 @@ export async function loader({ request }: LoaderFunctionArgs) {
         code,
         client_id: CLIENT_ID,
         client_secret: CLIENT_SECRET,
-        redirect_uri: origin + '/convex/callback',
+        redirect_uri: 'https://dev.maxdigitaledge.com/convex/callback',
       }),
     });
 

@@ -29,7 +29,7 @@ export async function loader() {
   const CONVEX_URL = process.env.VITE_CONVEX_URL || globalThis.process.env.CONVEX_URL!;
   const CONVEX_OAUTH_CLIENT_ID = globalThis.process.env.CONVEX_OAUTH_CLIENT_ID!;
   const WORKOS_REDIRECT_URI =
-    globalThis.process.env.VITE_WORKOS_REDIRECT_URI || 'https://dev.maxdigitaledge.com';
+    'https://dev.maxdigitaledge.com';
   return json({
     ENV: { CONVEX_URL, CONVEX_OAUTH_CLIENT_ID, WORKOS_REDIRECT_URI },
   });
